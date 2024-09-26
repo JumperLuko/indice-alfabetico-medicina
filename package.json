@@ -4,7 +4,8 @@
   "description": "Esta página estática foi criada por Thiago Augusto para o Daniel M., auxiliando na entrega do seu trabalho.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
