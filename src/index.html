@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="description" content="" /> -->
+  <!-- <meta property="og:site_name" content="Description preview exemple" /> -->
+  <!-- <meta property="og:locale" content="pt_BR" /> -->
+  <title>HTML5 Boilerplate</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <h1>Page Title</h1>
+  
+  <div class="info flex bg-slate-300 justify-around">
+    <div><p>Atualizado em: 00/00/0000</p></div>
+    <div><p>Email: email@email.com email@email.com</p></div>
+  </div>
+
+  <div class="grid grid-cols-4 bg-slate-100 text-center my-14">
+    <div><a href="">item</a></div>
+    <div><a href="">item</a></div>
+    <div><a href="">item</a></div>
+    <div><a href="">item</a></div>
+    <div><a href="">item</a></div>
+    <div><a href="">item</a></div>
+    <div><a href="">item</a></div>
+  </div>
+  
+  <table class="lista bg-slate-300 w-full">
+    {% for page in collections.pages %}
+    <tr><td><a href="{{ page.url }}">{{ page.data.title }}</a></td><td>---</td><td>---</td></tr>
+    {%- endfor %}
+  </table>
+
+  <!-- <script src="scripts.js"></script> -->
+</body>
+
+</html>

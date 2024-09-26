@@ -1,6 +1,20 @@
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+
 body{
-    color: purple;
-    h1{
-        background-color: red;
+    h1{text-align: center;}
+    .info{
+        div{
+            padding: 10px;
+        }
+    }
+    .lista{
+        tr{
+            td{
+                border: 1px gray solid;
+                padding: 10px;
+            }
+        }
     }
 }
