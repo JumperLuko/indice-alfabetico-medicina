@@ -17,7 +17,20 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <script src="" async defer></script>
+        <h1 class="text-center"><a href="/">Atlas de Anatomia Patológica</a></h1>
+        <h2 class="text-center">CHU-UFPA / EBSERH / HUJBB</h2>
+        
+        <div class="info flex justify-between">
+          <div><span>Atualizado em: 00/00/0000</span></div>
+          <div><span>Email: gatinho@email.com</span></div>
+        </div>
+      
+        <h3 class="text-center pt-10">Lista de assuntos em patologia</h3>
+        <div class="categorias grid grid-cols-4 text-center mb-14 py-2 gap-2">
+          {% for page in collections.pages %}
+            <div><a href="{{ page.url }}">{{ page.data.title }}</a></div>
+          {%- endfor %}
+        </div>
 
         <header>
             <h1>{{ title }}</h1>

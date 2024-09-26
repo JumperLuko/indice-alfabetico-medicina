@@ -1,5 +1,5 @@
 ---
-title: Page One
+title: Patologia Pulmonar
 ---
 
 This is the first page.

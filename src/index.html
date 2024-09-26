@@ -8,32 +8,43 @@
   <!-- <meta property="og:site_name" content="Description preview exemple" /> -->
   <!-- <meta property="og:locale" content="pt_BR" /> -->
   <title>HTML5 Boilerplate</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-  <h1>Page Title</h1>
+  <h1 class="text-center">Atlas de Anatomia Patológica</h1>
+  <h2 class="text-center">CHU-UFPA / EBSERH / HUJBB</h2>
   
-  <div class="info flex bg-slate-300 justify-around">
-    <div><p>Atualizado em: 00/00/0000</p></div>
-    <div><p>Email: email@email.com email@email.com</p></div>
+  <div class="info flex justify-between">
+    <div><span>Atualizado em: 00/00/0000</span></div>
+    <div><span>Email: gatinho@email.com</span></div>
   </div>
 
-  <div class="grid grid-cols-4 bg-slate-100 text-center my-14">
-    <div><a href="">item</a></div>
-    <div><a href="">item</a></div>
-    <div><a href="">item</a></div>
-    <div><a href="">item</a></div>
-    <div><a href="">item</a></div>
-    <div><a href="">item</a></div>
-    <div><a href="">item</a></div>
+  <h3 class="text-center pt-10">Lista de assuntos em patologia</h3>
+  <div class="categorias grid grid-cols-4 text-center mb-14 py-2 gap-2">
+    {% for page in collections.pages %}
+      <div><a href="{{ page.url }}">{{ page.data.title }}</a></div>
+    {%- endfor %}
   </div>
-  
+
   <table class="lista bg-slate-300 w-full">
+    <tr><td><a href="">Item 1</a></td></tr>
+    <tr><td><a href="">Item 2</a></td></tr>
+  </table>
+
+
+  <!-- <table class="lista bg-slate-300 w-full">
     {% for page in collections.pages %}
     <tr><td><a href="{{ page.url }}">{{ page.data.title }}</a></td><td>---</td><td>---</td></tr>
     {%- endfor %}
-  </table>
+  </table> -->
+
+  <p class="text-center"><a href="https://anatpat.unicamp.br/indexalfa.html">Referencia</a></p>
 
   <!-- <script src="scripts.js"></script> -->
 </body>

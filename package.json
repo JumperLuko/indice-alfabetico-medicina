@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'eleventy-gh-demo'",
     "css": "tailwindcss -i ./src/input.scss -o ./public/css/style.min.css --minify --watch"
   },
   "keywords": [],

@@ -3,10 +3,19 @@
 @tailwind utilities;
 
 body{
-    h1{text-align: center;}
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
     .info{
-        div{
-            padding: 10px;
+        span{
+            padding: 20px;
+        }
+    }
+    .categorias{
+        >div{
+            background-color: #f1f5f9;
+            padding-top: 0.7rem;
+            padding-bottom: 0.7rem;
         }
     }
     .lista{
