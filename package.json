@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "css": "tailwindcss -i ./src/input.scss -o ./public/css/style.min.css --minify --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
   }
 }

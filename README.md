@@ -12,6 +12,8 @@ A página é baseada no [indice da unicamp](https://anatpat.unicamp.br/indexalfa
 
 `npm install @11ty/eleventy`
 
-### serve
+### run
 
-`npx @11ty/eleventy --serve`
+`npm run start`
+
+`npm run css`
