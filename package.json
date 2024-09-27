@@ -4,15 +4,17 @@
   "description": "Esta página estática foi criada por Thiago Augusto para o Daniel M., auxiliando na entrega do seu trabalho.",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
     "build": "env NODE_ENV=production npx eleventy --pathprefix 'eleventy-gh-demo'",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
     "css": "tailwindcss -i ./src/input.scss -o ./public/css/style.min.css --minify --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "eleventy": "^2.0.1",
+    "netlify-plugin-cache": "^1.0.3"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.13"
