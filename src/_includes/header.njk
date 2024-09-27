@@ -1,0 +1,14 @@
+        <h1 class="text-center"><a href="/">Atlas de Anatomia Patológica</a></h1>
+        <h2 class="text-center">CHU-UFPA / EBSERH / HUJBB</h2>
+        
+        <div class="info flex justify-between">
+          <div><span>Atualizado em: 00/00/0000</span></div>
+          <div><span>Email: gatinho@email.com</span></div>
+        </div>
+      
+        <h3 class="text-center">Lista de assuntos em patologia</h3>
+        <div class="categorias grid md:grid-cols-4 sm:grid-cols-2 text-center mb-20 gap-2 justify-center">
+          {% for page in collections.pages %}
+            <a href="{{ page.url }}" class="flex justify-center align-middle items-center p-4"><div>{{ page.data.title }}</div></a>
+          {%- endfor %}
+        </div>

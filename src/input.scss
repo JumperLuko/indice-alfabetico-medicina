@@ -7,15 +7,15 @@ body{
     font-weight: 700;
     font-style: normal;
     .info{
-        span{
+        >div{
             padding: 20px;
         }
     }
     .categorias{
-        >div{
+        grid-template-rows: 1fr 1fr;
+        >a{
             background-color: #f1f5f9;
-            padding-top: 0.7rem;
-            padding-bottom: 0.7rem;
+            text-decoration: inherit;
         }
     }
     .lista{
@@ -26,4 +26,5 @@ body{
             }
         }
     }
+    img{max-width: 100%;}
 }

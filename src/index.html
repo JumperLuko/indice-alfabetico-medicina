@@ -17,21 +17,10 @@
 </head>
 
 <body>
-  <h1 class="text-center">Atlas de Anatomia Patológica</h1>
-  <h2 class="text-center">CHU-UFPA / EBSERH / HUJBB</h2>
-  
-  <div class="info flex justify-between">
-    <div><span>Atualizado em: 00/00/0000</span></div>
-    <div><span>Email: gatinho@email.com</span></div>
-  </div>
+  {% include 'header.njk' %} 
 
-  <h3 class="text-center pt-10">Lista de assuntos em patologia</h3>
-  <div class="categorias grid grid-cols-4 text-center mb-14 py-2 gap-2">
-    {% for page in collections.pages %}
-      <div><a href="{{ page.url }}">{{ page.data.title }}</a></div>
-    {%- endfor %}
-  </div>
 
+  <h1>INICIO</h1>
   <table class="lista bg-slate-300 w-full">
     <tr><td><a href="">Item 1</a></td></tr>
     <tr><td><a href="">Item 2</a></td></tr>
