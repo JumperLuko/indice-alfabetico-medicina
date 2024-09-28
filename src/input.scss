@@ -23,6 +23,18 @@ body{
             background-color: rgba(214, 211, 209, 0.50);
             text-decoration: inherit;
             color: inherit;
+            &:link,
+            &:visited {
+                transition: all .2s;
+            }
+            &:hover{
+                transform: translateY(-3px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
+            &:active {
+                transform: translateY(-1px);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            }
         }
     }
     .lista{
