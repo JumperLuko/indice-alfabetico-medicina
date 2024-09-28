@@ -6,16 +6,23 @@ body{
     font-family: "Gowun Batang", serif;
     font-weight: 700;
     font-style: normal;
+    background-color: #F8F4EF;
+    background-image: url("/img/page/background.webp");
+    background-size: 500px;
+    .page-title-home > a{
+        color: inherit;
+    }
     .info{
-        >div{
-            padding: 20px;
+        >div > div{
+            padding: 10px 20px;
         }
     }
     .categorias{
         /*grid-template-rows: 1fr 1fr;*/
         >a{
-            background-color: #f1f5f9;
+            background-color: rgba(214, 211, 209, 0.50);
             text-decoration: inherit;
+            color: inherit;
         }
     }
     .lista{

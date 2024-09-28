@@ -2,26 +2,23 @@
 <html lang="pt_BR">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <meta name="description" content="" /> -->
-  <!-- <meta property="og:site_name" content="Description preview exemple" /> -->
-  <!-- <meta property="og:locale" content="pt_BR" /> -->
-  <title>Anatomia Patológica</title>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+  {% include 'head.njk' %} 
 
-  <link rel="stylesheet" href="css/style.min.css">
+  <style>
+    .page-title-home > a{
+      text-decoration: inherit !important;
+      color: inherit;
+    }
+
+  </style>
 </head>
 
-<body>
+<body style="background-color: #F8F4EF;">
   {% include 'header.njk' %} 
 
 
-  <h1>INICIO</h1>
-  <table class="lista bg-slate-300 w-full">
+  <h1 class="text-center">INICIO</h1>
+  <table class="lista bg-slate-300 bg-opacity-50 w-full">
     <tr><td><a href="">Item 1</a></td></tr>
     <tr><td><a href="">Item 2</a></td></tr>
   </table>

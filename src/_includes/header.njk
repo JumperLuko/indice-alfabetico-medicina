@@ -1,14 +1,14 @@
-        <h1 class="text-center"><a href="/">Atlas de Anatomia Patológica</a></h1>
+        <h1 class="page-title-home text-center mb-0 text-[#63452C]"><a href="/">Atlas de Anatomia Patológica</a></h1>
         
         
-        <div class="info flex justify-between text-center">
-          <div><span>Atualizado em: 00/00/0000</span></div>
-          <div><span class="text-center">CHU-UFPA / EBSERH / HUJBB</span></div>
-          <div><span>Email: gatinho@email.com</span></div>
+        <div class="info flex flex-wrap justify-between text-center break-words w-full pb-5 text-gray-800">
+          <div class="w-full md:w-1/3"><div>Atualizado em: 00/00/0000</div></div>
+          <div class="w-full md:w-1/3"><div>CHU-UFPA / EBSERH / HUJBB</div></div>
+          <div class="w-full md:w-1/3"><div>Email: gatinho@email.com</div></div>
         </div>
       
-        <h2 class="text-center">Lista de assuntos em patologia</h2>
-        <div class="categorias grid xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 text-center mb-10 gap-2 justify-center">
+        <h2 class="text-center text-gray-900">Lista de assuntos em patologia</h2>
+        <div class="categorias grid xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 text-center mb-10 gap-2 justify-center ">
           {% for page in collections.pages %}
             <a href="{{ page.url }}" class="flex justify-center align-middle items-center p-4"><div>{{ page.data.title }}</div></a>
           {%- endfor %}
