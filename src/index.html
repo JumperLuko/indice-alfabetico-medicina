@@ -21,7 +21,7 @@
   <table class="lista bg-slate-300 bg-opacity-50 w-full">
     <!-- <tr><td><a href="">Item 1</a></td></tr>
     <tr><td><a href="">Item 2</a></td></tr> -->
-    {% for page in collections.subpages %}
+    {% for page in collections.conceptsAlpha %}
       <tr><td><a href="{{ page.url }}">{{ page.data.title }}</a></td></tr>
     {%- endfor %}
   </table>
