@@ -1,5 +1,5 @@
 ---
-title: Patologia gastrointestinal
+title: Tumor estromal gastrointestinal (GIST)
 ---
 
 This is the first page.

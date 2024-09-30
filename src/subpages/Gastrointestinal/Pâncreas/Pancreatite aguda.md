@@ -1,5 +1,5 @@
 ---
-title: Patologia gastrointestinal
+title: úlcera péptica
 ---
 
 This is the first page.

@@ -1,5 +1,5 @@
 ---
-title: Patologia gastrointestinal
+title: Megacólon
 ---
 
 This is the first page.

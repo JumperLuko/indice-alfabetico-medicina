@@ -1,5 +1,5 @@
 ---
-title: Patologia ginecológica/obstétrica
+title: Leiomioma
 ---
 
 This is the first page.

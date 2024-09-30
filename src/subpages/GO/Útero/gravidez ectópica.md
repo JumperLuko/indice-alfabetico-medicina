@@ -1,5 +1,5 @@
 ---
-title: Patologia ginecológica/obstétrica
+title: gravidez ectópica
 ---
 
 This is the first page.

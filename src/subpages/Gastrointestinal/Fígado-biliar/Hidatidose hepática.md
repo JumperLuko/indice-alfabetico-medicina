@@ -1,5 +1,5 @@
 ---
-title: Patologia gastrointestinal
+title: Hidatidose hepática
 ---
 
 This is the first page.
