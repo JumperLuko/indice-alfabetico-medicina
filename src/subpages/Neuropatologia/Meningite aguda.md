@@ -2,4 +2,6 @@
 title: Meningite aguda
 ---
 
-This is the first page.
+![alt](/img/subpages/Neuropatologia/Meningite%2001.webp)
+
+![alt](/img/subpages/Neuropatologia/Meningite%2002.webp)
