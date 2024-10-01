@@ -10,10 +10,12 @@ A página é baseada no [indice da unicamp](https://anatpat.unicamp.br/indexalfa
 
 `npm init -y`
 
-`npm install @11ty/eleventy`
+`npm install @eleventy`
+
+`npm install -D tailwindcss`
 
 ### run
 
-`npm run start`
+`npm run serve`
 
 `npm run css`
