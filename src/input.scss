@@ -9,6 +9,9 @@ body{
     background-color: #F8F4EF;
     background-image: url("/img/page/background.webp");
     background-size: 500px;
+    img{
+        max-height: 80vh;
+    }
     .page-title-home > a{
         color: inherit;
     }
